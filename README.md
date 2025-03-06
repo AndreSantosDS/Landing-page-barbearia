@@ -1,7 +1,8 @@
 # Landing-page-barbearia
 Este é um projeto de site para a Barbearia Alfa, com um design moderno e responsivo. Ele utiliza HTML, CSS e JavaScript para criar uma experiência visual atraente e funcional para os clientes. O layout é estruturado para destacar os serviços da barbearia, possibilitar agendamentos online e fornecer informações de contato.
 
-Principais Características:
+Principais Características:<br>
+
 ✅ Design Responsivo: Ajusta-se a diferentes tamanhos de tela.<br>
 ✅ Paleta de Cores Moderna: Tons escuros contrastando com laranja vibrante.<br>
 ✅ Seções Bem Definidas: Inclui início, sobre, serviços, agendamento e contatos.<br>
