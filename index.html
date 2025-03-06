@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="css/media-query.css">
+    <title>Barbearia Alfa</title>
+</head>
+<body>
+
+    <header>
+            <img src="imagens/logo.png" alt="Logo da barbearia alfa" class="logo">
+            <nav id="nav-menu">
+                <ul>
+                    <img src="imagens/fechar-menu.png" alt="Fechar menu" class="fechar-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#agendamento">Agendamento</a></li>
+                    <li><a href="#contatos" class="btn-contatos">Contatos</a></li>
+                </ul>
+            </nav>
+            <img src="imagens/menu-hamburguer.png" alt="Menu Hambúrguer" class="menu-hamburguer">
+    </header>
+
+    <main id="main">
+        <section id="inicio" class="content">
+            <div class="imagem-inicio">
+                <div class="centralizar-conteudo-inicio">
+                    <h1>Barbearia <span>Alfa</span></h1>
+                    <p>Seu estilo, nossa paixão.</p>
+                    <p>Cortes modernos e clássicos para homens de atitude.</p>
+                    <button class="btn-agendamento"><a href="#agendamento">Agende seu horário</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="content">
+            <div class="conteudo-sobre-barbearia">
+                <h2>Nossa História</h2>
+                <p>A Barbearia Alfa é um espaço dedicado aos cuidados masculinos, com um ambiente acolhedor e profissionais experientes. Oferecemos serviços de corte de cabelo, barba, bigode e muito mais. Nossa missão é realçar a beleza e o estilo de cada cliente, proporcionando uma experiência única e personalizada.</p>
+                <p>Fundada em 2022, a Barbearia Alfa se tornou referência na região, conquistando clientes fiéis e construindo uma reputação de excelência. Valorizamos a qualidade dos nossos serviços, a atenção aos detalhes e a satisfação dos nossos clientes.</p>
+                <img src="imagens/imagem-sobre-a-barbearia.jpg" alt="Sobre a barbearia">
+            </div>
+        </section>
+
+        <section id="servicos">
+            <h2>Conheçam os nossos serviços</h2>
+            <div class="container">
+                <div class="cards">
+                    <img src="imagens/imagem-corte-completo.png" alt="Corte completo">
+                    <p>Completo</p>
+                    <div class="flex">
+                        <p>R$ 50,00</p>
+                        <button><a href="#agendamento">Agendar</a></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="imagens/imagem-corte-degrade.png" alt="Corte completo">
+                    <p>Corte Degradê</p>
+                    <div class="flex">
+                        <p>R$ 35,00</p>
+                        <button><a href="#agendamento">Agendar</a></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="imagens/imagem-corte-social.png" alt="Corte completo">
+                    <p>Corte Social</p>
+                    <div class="flex">
+                        <p>R$ 35,00</p>
+                        <button><a href="#agendamento">Agendar</a></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="imagens/imagem-corte-militar.png" alt="Corte completo">
+                    <p>Corte Militar</p>
+                    <div class="flex">
+                        <p>R$ 35,00</p>
+                        <button><a href="#agendamento">Agendar</a></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="imagens/imagem-corte-freestyle.png" alt="Corte completo">
+                    <p>Corte Freestyle</p>
+                    <div class="flex">
+                        <p>R$ 35,00</p>
+                        <button><a href="#agendamento">Agendar</a></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="imagens/imagem-corte-moicano 2.png" alt="Corte completo">
+                    <p>Corte Moicano</p>
+                    <div class="flex">
+                        <p>R$ 35,00</p>
+                        <button><a href="#agendamento">Agendar</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="agendamento">
+            <h2>Agendamento</h2>
+            <form action="#" autocomplete="on" id="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" >
+                <label for="data">Data</label>
+                <input type="date" name="data" id="data" required>
+                <label for="hora">Hora</label>
+                <input type="time" name="hora" id="hora" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="contatos">
+            <h2>Entre em Contato</h2>
+            <div class="container">
+                <div class="contato endereco">
+                    <img src="imagens/icone-de-endereco.png" alt="Ícone de endereço">
+                    <p><strong>Endereço:</strong> Rua dos Bobos, 222</p>
+                </div>
+                <div class="contato telefone">
+                    <img src="imagens/icone-de-telefone.png" alt="Ícone de telefone">
+                    <p><strong>Telefone:</strong> <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                </div>
+                <div class="contato email">
+                    <img src="imagens/icone-de-email.png" alt="Ícone de email">
+                    <p><strong>Email:</strong> <a href="#">barbeariaalfa@gmail.com.br</a></p>
+                </div>
+                <div class="contato whatsapp">
+                    <img src="imagens/icone-de-whatsapp.png" alt="Ícone do WhatsApp">
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511999999999">(11) 99999-9999</a></p>
+                </div>
+                <div class="contato instagram">
+                    <img src="imagens/icone-de-instagram.png" alt="Ícone do Instagram">
+                    <p><strong>Instagram:</strong> <a href="#">@barbearia_alfa</a></p>
+                </div>
+                <div class="contato facebook">
+                    <img src="imagens/icone-de-facebook.png" alt="Ícone do Facebook">
+                    <p><strong>Facebook:</strong> <a href="#">Barbearia Alfa</a></p>
+                </div>
+            </div>
+        </section>
+
+        <button id="btn-voltar" title="Voltar ao topo"><a href="#inicio"><img src="imagens/voltar-para-inicio.png" alt=""></a></button>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2025 Barbearia Alfa. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
