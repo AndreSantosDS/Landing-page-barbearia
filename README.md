@@ -11,4 +11,4 @@ Principais Características:<br>
 
 Este site visa proporcionar um ambiente digital profissional e intuitivo para os clientes da barbearia, facilitando o contato e a fidelização. 
 
-Link: <a href="https://andre-santos-de-souza.github.io/Landing-page-barbearia/" target="_blank">Barbearia Alfa</a>
+Link: <a href="https://andresantosds.github.io/Landing-page-barbearia/" target="_blank">Barbearia Alfa</a>
